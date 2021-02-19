@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 4rem;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.end {
+  color: white;
+  font-size: 0.7rem;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: center;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skills {
+  margin: 50px;
+}
+
+.contact-me {
+  margin: 50px;
+}
+
+hr {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 7px dotted;
+  width: 5%;
+  color: #EAF6F6;
+}
+
+.profile {
+  margin: 50px;
+}
+.pic-img {
+  width: 20%;
+}
+
+.skill-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding: 200px 100px 0 100px;
+}
+
+.come-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding: 300px;
+}
+
+.bottom-container {
+  padding:20px;
+  margin: 0;
+  background-color: #66BFBF;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.footer-link{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.contact-btn {
+  margin-top: 30px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Trebuchet MS;
+   font-size: 16px;
+   font-weight: 900;
+   padding: 19px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-btn:hover {
+   border: solid #337FED 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
